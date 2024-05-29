@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="source.js" type="module" defer></script>
+    </head>
+    <body>
+        <div class="section">
+            <div class="sub-section">
+                <button id="copy-data">Copy</button> <br />
+                <label for="copy-data">Copy data to clipboard</label>
+            </div>
+
+            <div class="sub-section">
+                <button id="reset-data">Reset</button> <br />
+                <label for="reset-data">Reset the data</label>
+            </div>
+
+            <div class="sub-section">
+                <button id="download-data">Download</button> <br />
+                <label for="download-data">Download .csv file</label>
+            </div>
+
+            <div class="sub-section">
+                <button id="capture">Capture</button> <br />
+                <label for="capture">Add current tab to row</label>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="scroller">
+            <table>
+                <thead>
+                    <tr>
+                        <th>URL</th>
+                        <th>Title</th>
+                    </tr>
+                </thead>
+                <tbody id="output"></tbody>
+            </table>
+        </div>
+    </body>
+</html>

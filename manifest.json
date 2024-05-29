@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "QuickTab Extractor",
+    "description": "Capture the current tab's URL and title with ease.",
+    "version": "1.0",
+    "host_permissions": [
+        "https://developer.chrome.com/*",
+        "https://app.hubspot.com/*"
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "16": "images/QTabX-16.png",
+        "32": "images/QTabX-32.png",
+        "48": "images/QTabX-48.png",
+        "128": "images/QTabX-128.png"
+    },
+    "action": {
+        "default_popup": "./popup/popup.html"
+    }
+}
